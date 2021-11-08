@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascrip| String and String method..</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is heading frist</h1>
+        <div id="content">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ea obcaecati sequi ullam excepturi labore
+                veniam deleniti accusamus, dolores nobis earum quam optio minus recusandae voluptate, omnis aliquam repellat
+                dolorum voluptatem exercitationem, magnam quod molestiae corporis illo! Quae, illo? Soluta assumenda
+                officiis recusandae pariatur atque labore, iure in aut.</p>
+            </div>
+    </div>
+
+    <script>
+        var string = "this";
+        var string = 'singlequote';
+        console.log(string);
+        var message = 'Suraj is good boy';
+        console.log(message + string);
+        var name = 'suraj';
+        var temp = `${name} is a nice person and he is emotional guy ${message}`;
+        console.log(temp);
+        var len = name.length;
+        console.log(`length of name is ${len}`)
+        console.log("hello i am suraj  \n how can i help you!")
+
+
+        var y = new String("this")
+        console.log(y);
+
+        document.getElementById('content').innerHTML = '<h3> This is heading h3 </h3>'
+
+    </script>
+
+</body>
+
+</html>
